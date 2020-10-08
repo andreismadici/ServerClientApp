@@ -1,17 +1,28 @@
 # ServerClientApp
 Server - .Net 3.1 / Client - Vue.js / DataBase - SqlServer
+
 Descrierea aplicatiei:
+
   Aplicația urmărește să reducă pierderea de marfă unui depozit de marmură și granit, gestionarea comenziilor primite și automatizarea procesului de distribuire a plăciilor din stoc pentru tăiere. În momentul de față există pe piață aplicații pentru gestionarea mărfuriilor dar aceasta se bazează strict pe nevoile unui astfel de depozit oferind următoarele funcționalități:
+  
   •	Introducerea ușoară a unei comenzi
+  
   •	Un algoritm pentru gestionarea tăierilor
+  
   •	Reducerea tăierilor inutile: programul urmărește să facă cât mai puține tăieri alegând „placa perfectă” din stoc pentru fiecare placă din comandă dar și alegând mereu plăcile care au lungimea și lățimea cea mai mică. 
   
 De exemplu:
+
 	Numim pierdere toate plăcile din stoc care au lungimea < 10 cm sau lățimea < 10 cm.
+	
 	Presupunem că avem ca și comandă urmatoarele plăci:
+	
     •	Placa nr.1;  Lungimea = 1.20 m; Lățimea = 0.40 m;
+    
     •	Placa nr.2;  Lungimea = 1.20 m; Lățimea = 0.30 m;
+    
     •	Placa nr.3;  Lungimea = 0.60 m; Lățimea = 0.50 m;
+    
     •	Placa nr.4;  Lungimea = 0.60 m; Lățimea = 0.50 m;
   Și pentru stoc următoarele plăci:
     •	Placa nr.1;  Lungimea = 1.20 m; Lățimea = 0.70m;
